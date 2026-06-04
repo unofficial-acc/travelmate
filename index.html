@@ -494,7 +494,7 @@ footer{background:#F5F5F3;border-top:1px solid #EBEBEB;padding:60px 60px 36px}
     </div>
   </div>
   <div class="hero-stats">
-    <div><div class="stat-n">5</div><div class="stat-l">Private Villas</div></div>
+    <div><div class="stat-n">10+</div><div class="stat-l">Private Villas</div></div>
     <div><div class="stat-n">4.9★</div><div class="stat-l">Avg Rating</div></div>
     <div><div class="stat-n">500+</div><div class="stat-l">Happy Guests</div></div>
   </div>
@@ -545,27 +545,27 @@ footer{background:#F5F5F3;border-top:1px solid #EBEBEB;padding:60px 60px 36px}
   </div>
   <div class="place-grid">
     <div class="place-card">
-      <div class="place-img"><img src="bhushi dam.jpg" onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600'" alt="Bhushi Dam" loading="lazy"></div>
+      <div class="place-img"><img src="bhushi dam.jpg" alt="Bhushi Dam" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 3 km · Water</div><div class="place-name">Bhushi Dam</div><div class="place-desc">Lonavala's most popular spot — cascading water over rocky steps, fun for friends and families especially during monsoon.</div></div>
     </div>
     <div class="place-card">
-      <div class="place-img"><img src="Tiger's Leap.jpg" onerror="this.src='https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600'" alt="Tiger's Leap" loading="lazy"></div>
+      <div class="place-img"><img src="Tiger's Leap.jpg" alt="Tiger's Leap" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 10 km · Viewpoint</div><div class="place-name">Tiger's Leap</div><div class="place-desc">Dramatic cliff-edge viewpoint with breathtaking valley views. Best at sunrise or after the rains.</div></div>
     </div>
     <div class="place-card">
-      <div class="place-img"><img src="Karla & Bhaja Caves.jpg" onerror="this.src='https://images.unsplash.com/photo-1548013146-72479768bada?w=600'" alt="Karla Caves" loading="lazy"></div>
+      <div class="place-img"><img src="Karla & Bhaja Caves.jpg" alt="Karla Caves" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 12 km · Heritage</div><div class="place-name">Karla &amp; Bhaja Caves</div><div class="place-desc">Ancient rock-cut Buddhist caves over 2,000 years old — stunning architecture carved into the Sahyadri hillside.</div></div>
     </div>
     <div class="place-card">
-      <div class="place-img"><img src="Rajmachi Fort.jpg" onerror="this.src='https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600'" alt="Rajmachi Fort" loading="lazy"></div>
+      <div class="place-img"><img src="Rajmachi Fort.jpg" alt="Rajmachi Fort" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 15 km · Trek</div><div class="place-name">Rajmachi Fort</div><div class="place-desc">Historic twin-fort complex atop the Sahyadri mountains — a favourite trekking destination with panoramic views.</div></div>
     </div>
     <div class="place-card">
-      <div class="place-img"><img src="Lonavala Lake.jpg" onerror="this.src='https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600'" alt="Lonavala Lake" loading="lazy"></div>
+      <div class="place-img"><img src="Lonavala Lake.jpg" alt="Lonavala Lake" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 2 km · Lake</div><div class="place-name">Lonavala Lake</div><div class="place-desc">Peaceful artificial lake perfect for a morning walk or picnic. Watch the mist roll in over the still water.</div></div>
     </div>
     <div class="place-card">
-      <div class="place-img"><img src="lohagad fort.jpg" onerror="this.src='https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600'" alt="Lohagad Fort" loading="lazy"></div>
+      <div class="place-img"><img src="lohagad fort.jpg" alt="Lohagad Fort" loading="lazy"></div>
       <div class="place-body"><div class="place-dist">📍 20 km · Fort</div><div class="place-name">Lohagad Fort</div><div class="place-desc">One of Maharashtra's most iconic forts with four massive gates and sweeping views of the Pavna backwaters.</div></div>
     </div>
   </div>
@@ -889,7 +889,37 @@ const villas = [
   location: 'Karla, Lonavala',
   tag: 'Private Villa · 4BHK · Full AC',
   guests: 'Up to 20 Guests',
-  desc: 'Spacious fully air-conditioned 4BHK private villa in Karla — steps away from the famous Karla Caves and Ekvira Temple. Perfect for families and groups. Base pricing includes up to 10 guests, with accommodation available for up to 20 people. Additional guests are chargeable at ₹1,000 per person.',
+  desc: 'Spacious fully air-conditioned 4BHK private villa perfect for families, couples, and group stays. Base pricing includes up to 10 guests, with accommodation available for up to 20 people. Additional guests are chargeable at ₹1,000 per person. Ideal for weekend getaways, celebrations, and relaxing stays near Lonavala.',
+  price: 15000,
+  weekdayPrice: 10000,
+  weekendPrice: 15000,
+  baseGuests: 10,
+  extraGuestCharge: 1000,
+  booking: '50% advance required to confirm booking (Non-Refundable). Remaining amount payable at check-in. Security deposit may be applicable. Damage charges applicable if any.',
+  deposit: null,
+  kitchenCharge: null,
+  contact: ['9049759616', '7745040464'],
+  amenities: [
+    '4 Fully Air-Conditioned Bedrooms',
+    'Private Villa Stay',
+    'Spacious Living Area',
+    'Attached Bathrooms',
+    'Comfortable Bedding',
+    'Private Parking',
+    'Suitable for Families & Groups',
+    'Peaceful Surroundings'
+  ],
+  attractions: [
+    'Karla Caves',
+    'Ekvira Temple',
+    'Lonavala Market',
+    'Bhushi Dam',
+    'Tiger Point',
+    'Lohagad Fort',
+    'Pawna Lake'
+  ],
+  images: [
+    'Karla/1.jpeg',
     'Karla/2.jpeg',
     'Karla/3.jpeg',
     'Karla/4.jpeg',
@@ -904,7 +934,37 @@ const villas = [
   location: 'Tungarli, Lonavala',
   tag: 'Private Villa · 4BHK · Full AC',
   guests: 'Up to 20 Guests',
-  desc: 'Beautifully located 4BHK private villa in the serene Tungarli area of Lonavala — surrounded by lush greenery and close to Tungarli Lake. Ideal for families and groups seeking a quiet retreat. Base pricing includes up to 10 guests, with accommodation available for up to 20 people. Additional guests are chargeable at ₹1,000 per person.',
+  desc: 'Spacious fully air-conditioned 4BHK private villa perfect for families, couples, and group stays. Base pricing includes up to 10 guests, with accommodation available for up to 20 people. Additional guests are chargeable at ₹1,000 per person. Ideal for weekend getaways, celebrations, and relaxing stays near Lonavala.',
+  price: 15000,
+  weekdayPrice: 10000,
+  weekendPrice: 15000,
+  baseGuests: 10,
+  extraGuestCharge: 1000,
+  booking: '50% advance required to confirm booking (Non-Refundable). Remaining amount payable at check-in. Security deposit may be applicable. Damage charges applicable if any.',
+  deposit: null,
+  kitchenCharge: null,
+  contact: ['9049759616', '7745040464'],
+  amenities: [
+    '4 Fully Air-Conditioned Bedrooms',
+    'Private Villa Stay',
+    'Spacious Living Area',
+    'Attached Bathrooms',
+    'Comfortable Bedding',
+    'Private Parking',
+    'Suitable for Families & Groups',
+    'Peaceful Surroundings'
+  ],
+  attractions: [
+    'Karla Caves',
+    'Ekvira Temple',
+    'Lonavala Market',
+    'Bhushi Dam',
+    'Tiger Point',
+    'Lohagad Fort',
+    'Pawna Lake'
+  ],
+  images: [
+    'D Tungrali/1.jpeg',
     'D Tungrali/2.jpeg',
     'D Tungrali/3.jpeg',
     'D Tungrali/4.jpeg',
@@ -917,7 +977,7 @@ const villas = [
   
   {
   name: 'Pawna Villa',
-  location: 'Pawna, Lonavala',
+  location: 'pawna, Lonavala',
   tag: 'Private Villa · 4BHK · Full AC',
   guests: 'Up to 20 Guests',
   desc: 'Spacious fully air-conditioned 4BHK private villa perfect for families, couples, and group stays. Base pricing includes up to 10 guests, with accommodation available for up to 20 people. Additional guests are chargeable at ₹1,000 per person. Ideal for weekend getaways, celebrations, and relaxing stays near Lonavala.',
@@ -1221,12 +1281,8 @@ function closeModal() {
 }
 
 function barBook() {
-  const ci = document.getElementById('bar-ci').value;
-  const co = document.getElementById('bar-co').value;
-  // Pre-fill modal dates if set in bar, then scroll to villas
-  if (ci) document.getElementById('m-ci') && (document.getElementById('m-ci').value = ci);
-  if (co) document.getElementById('m-co') && (document.getElementById('m-co').value = co);
-  document.getElementById('villas').scrollIntoView({ behavior: 'smooth' });
+  document.getElementById('villas')
+    .scrollIntoView({ behavior: 'smooth' });
 }
 
 function toggleMenu() {
